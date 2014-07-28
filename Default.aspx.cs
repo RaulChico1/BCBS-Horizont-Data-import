@@ -18,7 +18,7 @@ using System.Data.Linq.Mapping;
 
 public partial class _Default : System.Web.UI.Page
 {
-    [Table(Name = "BatchDataXML")]
+    [Table(Name = "BatchDataXML_new")]
 
     public class ClientData
     {
@@ -39,10 +39,16 @@ public partial class _Default : System.Web.UI.Page
         public string BusinessName { get; set; }
         [Column]
         public string CompanyName { get; set; }
-        [Column]
-        public string FlightNumber { get; set; }
-        [Column]
-        public string Bind { get; set; }
+        //[Column]
+        //public string FlightNumber { get; set; }
+        //[Column]
+        //public string Bind { get; set; }
+        //[Column]
+        //public string InsertCode1 { get; set; }
+        //[Column]
+        //public string FileName { get; set; }
+        //[Column]
+        //public string SequenceOrder { get; set; }
         [Column]
         public string NumberOfCopy { get; set; }
         [Column]
@@ -73,13 +79,19 @@ public partial class _Default : System.Web.UI.Page
         public IList<PDFs> pdfs = new List<PDFs>();
     }
 
-    [Table(Name = "BatchDataDetailXML")]
+    [Table(Name = "BatchDataDetailXML_new")]
       public class PDFs
     {
         [Column(DbType = "Int NOT NULL", IsPrimaryKey = true, IsDbGenerated = true)]
         public int RowID { get; set; }
         [Column]
         public string ClientTransactionID { get; set; }
+        [Column]
+        public string FlightNumber { get; set; }
+        [Column]
+        public string Bind { get; set; }
+        [Column]
+        public string InsertCode1 { get; set; }
         [Column]
         public string FileName { get; set; }
         [Column]
@@ -90,8 +102,8 @@ public partial class _Default : System.Web.UI.Page
     {
 
         private const String LoginString = @"Server=BusinessSQL\sqlserver2008R2;User ID=BCBS_AuditUser;Password=weffAmFoS;Database=BCBS_Horizon";
-        public Table<ClientData> BatchDataXML;
-        public Table<PDFs> BatchDataDetailXML;
+        public Table<ClientData> BatchDataXML_new;
+        public Table<PDFs> BatchDataDetailXML_new;
         public MyDatabase()
             : base(LoginString)
         {
@@ -105,7 +117,7 @@ public partial class _Default : System.Web.UI.Page
         try
         {
             string connStr = ConfigurationManager.ConnectionStrings["conStrProd"].ConnectionString;
-            XDocument xdoc = XDocument.Load("C:/BCBS_Horizon_Data/INBKLCNT_14122_012133 - Copy.xml");
+            XDocument xdoc = XDocument.Load("C:/BCBS_Horizon_Data/MultiFlight_SABKLCNT_14197_095427_copy.xml");
 
             List<ClientData> clientdata = (from cntry in xdoc.Element("BatchRequests").Elements("BatchRequest")
 
@@ -120,8 +132,14 @@ public partial class _Default : System.Web.UI.Page
                                                ProductName = cntry.Element("ProductName").Value,
                                                BusinessName = cntry.Element("BusinessName").Value,
                                                CompanyName = cntry.Element("CompanyName").Value,
-                                               FlightNumber = cntry.Element("MailPiece").Element("Flight").Element("FlightNumber").Value,
-                                               Bind = cntry.Element("MailPiece").Element("Flight").Element("Bind").Value,
+                                               //flight
+                                               //FlightNumber = cntry.Element("MailPiece").Element("Flight").Element("FlightNumber").Value,
+                                               //Bind = cntry.Element("MailPiece").Element("Flight").Element("Bind").Value,
+                                               //InsertCode1 = cntry.Element("MailPiece").Element("Flight").Element("InsertCode1").Value,
+
+                                               //FileName = cntry.Element("MailPiece").Element("Flight").Element("Files").Element("FileName").Value,
+                                               //SequenceOrder = cntry.Element("MailPiece").Element("Flight").Element("Files").Element("SequenceOrder").Value,
+
                                                NumberOfCopy = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("NumberOfCopy").Value,
                                                NameLine1 = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("NameLine1").Value,
                                                NameLine2 = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("NameLine2").Value,
@@ -136,14 +154,17 @@ public partial class _Default : System.Web.UI.Page
                                                EffectiveDate = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("EffectiveDate").Value,
                                                ContractType = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("ContractType").Value,
 
-                                               pdfs = (from ste in cntry.Element("MailPiece").Elements("Flight").Elements("Files")
+                                               pdfs = (from ste in cntry.Element("MailPiece").Elements("Flight")
 
 
                                                        select new PDFs
 
                                                        {
-                                                           FileName = (string)ste.Element("Filename"),
-                                                           SequenceOrder = (string)ste.Element("SequenceOrder")
+                                                           FlightNumber = (string)ste.Element("FlightNumber"),
+                                                           Bind = (string)ste.Element("Bind"),
+                                                           InsertCode1 = (string)ste.Element("InsertCode1"),
+                                                           FileName = (string)ste.Element("Files").Element("Filename"),
+                                                           SequenceOrder = (string)ste.Element("Files").Element("SequenceOrder")
 
                                                        }).ToList()
 
@@ -158,7 +179,7 @@ public partial class _Default : System.Web.UI.Page
               
                    
 
-                    db.BatchDataXML.InsertOnSubmit(co);
+                    db.BatchDataXML_new.InsertOnSubmit(co);
                     db.SubmitChanges();
 
                 
@@ -166,7 +187,7 @@ public partial class _Default : System.Web.UI.Page
                 foreach (var st in co.pdfs)
                 {
                     st.ClientTransactionID = co.ClientTransactionID;
-                    db.BatchDataDetailXML.InsertOnSubmit(st);
+                    db.BatchDataDetailXML_new.InsertOnSubmit(st);
                     db.SubmitChanges();
                     Console.WriteLine(st.FileName);
 
