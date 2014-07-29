@@ -18,7 +18,7 @@ using System.Data.Linq.Mapping;
 
 public partial class _Default : System.Web.UI.Page
 {
-    [Table(Name = "BatchDataXML_new")]
+    [Table(Name = "BatchDataXML")]
 
     public class ClientData
     {
@@ -49,6 +49,36 @@ public partial class _Default : System.Web.UI.Page
         //public string FileName { get; set; }
         //[Column]
         //public string SequenceOrder { get; set; }
+        public IList<Flight> flights = new List<Flight>();
+        public IList<Receipt> receipts = new List<Receipt>();
+    }
+
+    [Table(Name = "BatchDetail_Flight")]
+    public class Flight
+    {
+        [Column(DbType = "Int NOT NULL", IsPrimaryKey = true, IsDbGenerated = true)]
+        public int RowID { get; set; }
+        [Column]
+        public string ClientTransactionID { get; set; }
+        [Column]
+        public string FlightNumber { get; set; }
+        [Column]
+        public string Bind { get; set; }
+        [Column]
+        public string InsertCode1 { get; set; }
+        [Column]
+        public string FileName { get; set; }
+        [Column]
+        public string SequenceOrder { get; set; }
+
+    }
+    [Table(Name = "BatchDetail_Receipt")]
+    public class Receipt
+    {
+        [Column(DbType = "Int NOT NULL", IsPrimaryKey = true, IsDbGenerated = true)]
+        public int RowID { get; set; }
+        [Column]
+        public string ClientTransactionID { get; set; }
         [Column]
         public string NumberOfCopy { get; set; }
         [Column]
@@ -75,35 +105,14 @@ public partial class _Default : System.Web.UI.Page
         public string EffectiveDate { get; set; }
         [Column]
         public string ContractType { get; set; }
-
-        public IList<PDFs> pdfs = new List<PDFs>();
-    }
-
-    [Table(Name = "BatchDataDetailXML_new")]
-      public class PDFs
-    {
-        [Column(DbType = "Int NOT NULL", IsPrimaryKey = true, IsDbGenerated = true)]
-        public int RowID { get; set; }
-        [Column]
-        public string ClientTransactionID { get; set; }
-        [Column]
-        public string FlightNumber { get; set; }
-        [Column]
-        public string Bind { get; set; }
-        [Column]
-        public string InsertCode1 { get; set; }
-        [Column]
-        public string FileName { get; set; }
-        [Column]
-        public string SequenceOrder { get; set; }
-
     }
     class MyDatabase : DataContext
     {
 
         private const String LoginString = @"Server=BusinessSQL\sqlserver2008R2;User ID=BCBS_AuditUser;Password=weffAmFoS;Database=BCBS_Horizon";
-        public Table<ClientData> BatchDataXML_new;
-        public Table<PDFs> BatchDataDetailXML_new;
+        public Table<ClientData> BatchDataXML;
+        public Table<Flight> BatchDetail_Flight;
+        public Table<Receipt> BatchDetail_Receipt;
         public MyDatabase()
             : base(LoginString)
         {
@@ -117,7 +126,7 @@ public partial class _Default : System.Web.UI.Page
         try
         {
             string connStr = ConfigurationManager.ConnectionStrings["conStrProd"].ConnectionString;
-            XDocument xdoc = XDocument.Load("C:/BCBS_Horizon_Data/MultiFlight_SABKLCNT_14197_095427_copy.xml");
+            XDocument xdoc = XDocument.Load("C:/BCBS_Horizon_Data/MultiFlight_SABKLCNT_Test.XML");
 
             List<ClientData> clientdata = (from cntry in xdoc.Element("BatchRequests").Elements("BatchRequest")
 
@@ -132,33 +141,10 @@ public partial class _Default : System.Web.UI.Page
                                                ProductName = cntry.Element("ProductName").Value,
                                                BusinessName = cntry.Element("BusinessName").Value,
                                                CompanyName = cntry.Element("CompanyName").Value,
-                                               //flight
-                                               //FlightNumber = cntry.Element("MailPiece").Element("Flight").Element("FlightNumber").Value,
-                                               //Bind = cntry.Element("MailPiece").Element("Flight").Element("Bind").Value,
-                                               //InsertCode1 = cntry.Element("MailPiece").Element("Flight").Element("InsertCode1").Value,
 
-                                               //FileName = cntry.Element("MailPiece").Element("Flight").Element("Files").Element("FileName").Value,
-                                               //SequenceOrder = cntry.Element("MailPiece").Element("Flight").Element("Files").Element("SequenceOrder").Value,
+                                               flights = (from ste in cntry.Element("MailPiece").Elements("Flight")
 
-                                               NumberOfCopy = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("NumberOfCopy").Value,
-                                               NameLine1 = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("NameLine1").Value,
-                                               NameLine2 = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("NameLine2").Value,
-                                               AddressLine1 = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("AddressLine1").Value,
-                                               AddressLine2 = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("AddressLine2").Value,
-                                               city = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("city").Value,
-                                               state = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("State").Value,
-                                               zip = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("Zip").Value,
-                                               GroupNo = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("GroupNo").Value,
-                                               FullName = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("FullName").Value,
-                                               SubscriberID = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("SubscriberID").Value,
-                                               EffectiveDate = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("EffectiveDate").Value,
-                                               ContractType = cntry.Element("MailPiece").Element("MailingInfo").Element("RecipientInfo").Element("ContractType").Value,
-
-                                               pdfs = (from ste in cntry.Element("MailPiece").Elements("Flight")
-
-
-                                                       select new PDFs
-
+                                                          select new Flight
                                                        {
                                                            FlightNumber = (string)ste.Element("FlightNumber"),
                                                            Bind = (string)ste.Element("Bind"),
@@ -166,8 +152,28 @@ public partial class _Default : System.Web.UI.Page
                                                            FileName = (string)ste.Element("Files").Element("Filename"),
                                                            SequenceOrder = (string)ste.Element("Files").Element("SequenceOrder")
 
-                                                       }).ToList()
+                                                       }).ToList(),
 
+                                               receipts = (from ste in cntry.Element("MailPiece").Elements("MailingInfo").Elements("RecipientInfo")
+
+
+                                                         select new Receipt
+                                                       {
+                                                           NumberOfCopy = (string)ste.Element("NumberOfCopy").Value,
+                                                           NameLine1 = (string)ste.Element("NameLine1").Value,
+                                                           NameLine2 = (string)ste.Element("NameLine2").Value,
+                                                           AddressLine1 = (string)ste.Element("AddressLine1").Value,
+                                                           AddressLine2 = (string)ste.Element("AddressLine2").Value,
+                                                           city = (string)ste.Element("city").Value,
+                                                           state = (string)ste.Element("State").Value,
+                                                           zip = (string)ste.Element("Zip").Value,
+                                                           GroupNo = (string)ste.Element("GroupNo").Value,
+                                                           FullName = (string)ste.Element("FullName").Value,
+                                                           SubscriberID = (string)ste.Element("SubscriberID").Value,
+                                                           EffectiveDate = (string)ste.Element("EffectiveDate").Value,
+                                                           ContractType = (string)ste.Element("ContractType").Value
+
+                                                       }).ToList()
                                            }).ToList();
             MyDatabase db = new MyDatabase();
  
@@ -176,22 +182,30 @@ public partial class _Default : System.Web.UI.Page
             {
 
                 Console.WriteLine(co.ClientTransactionID);
-              
-                   
 
-                    db.BatchDataXML_new.InsertOnSubmit(co);
+
+
+                db.BatchDataXML.InsertOnSubmit(co);
                     db.SubmitChanges();
 
-                
 
-                foreach (var st in co.pdfs)
+
+                    foreach (var st in co.flights)
                 {
                     st.ClientTransactionID = co.ClientTransactionID;
-                    db.BatchDataDetailXML_new.InsertOnSubmit(st);
+                    db.BatchDetail_Flight.InsertOnSubmit(st);
                     db.SubmitChanges();
                     Console.WriteLine(st.FileName);
 
                 }
+                    foreach (var st in co.receipts)
+                    {
+                        st.ClientTransactionID = co.ClientTransactionID;
+                        db.BatchDetail_Receipt.InsertOnSubmit(st);
+                        db.SubmitChanges();
+                        //Console.WriteLine(st.FileName);
+
+                    }
             }
 
           
