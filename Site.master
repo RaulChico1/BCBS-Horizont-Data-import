@@ -1,0 +1,167 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Horizont Services</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <!--<link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />-->
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+       <%-- <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/">Home</a></li>
+                        <li><a runat="server" href="~/About">About</a></li>
+                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                    </ul>
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="~/Account/Register">Register</a></li>
+                                <li><a runat="server" href="~/Account/Login">Log in</a></li>
+                            </ul>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %>!</a></li>
+                                <li>
+                                    <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                </li>
+                            </ul>
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                </div>
+            </div>
+        </div>--%>
+         <div class="header">
+                <div class="title">
+                    <!--<img src="http://www.wolterskluwer.com/Style%20Library/Images/v2/wk-tagline-logo_194.jpg" />-->
+                </div>
+                <div style="width: 650px; margin-left: auto; margin-right: auto;">
+                    <h3>
+                        <asp:Label ID="lnkHome" runat="server">
+                Horizont Services
+                        </asp:Label>
+                    </h3>
+                </div>
+                <div></div>
+
+                <div class="loginDisplay">
+                    <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                        <AnonymousTemplate>
+                            [ <a href="~/Account/Login.aspx" id="HeadLoginStatus" runat="server">Log In</a> ]
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            Welcome <span class="bold">
+                                <asp:LoginName ID="HeadLoginName" runat="server" />
+                            </span>!
+                        [
+                            <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/Account/Logout.aspx" />
+                            ]
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                </div>
+                <!-- <div >
+                <h2 id="lnkHome">Current Mail</h2>
+            </div>
+               -->
+                <div class="clear hideSkiplink">
+
+                    <asp:Menu ID="Menu1" runat="server" CssClass="menu" IncludeStyleBlock="false" EnableViewState="false" Orientation="Horizontal">
+
+                        <LevelMenuItemStyles>
+                            <asp:MenuItemStyle CssClass="level1" />
+                            <asp:MenuItemStyle CssClass="level2" />
+                            <asp:MenuItemStyle CssClass="level3" />
+                            <asp:MenuItemStyle CssClass="level4" />
+                        </LevelMenuItemStyles>
+
+                        <Items>
+                            <%-- <asp:MenuItem Value="UploadFiles" Text="Import Horizon">
+                                <asp:MenuItem Value="Update" Text="Import Data" NavigateUrl="~/ImportData.aspx"></asp:MenuItem>
+                            </asp:MenuItem>--%>
+                            <asp:MenuItem Value="PreSalesKit" Text="Pre Sales Kit (Medigap)">
+                                <asp:MenuItem Value="Update" Text="Upload Data" NavigateUrl="~/PreSalesKit.aspx"></asp:MenuItem>
+                                <asp:MenuItem Value="Update" Text="Update Ship Confirmation" NavigateUrl="~/PreSalesKitconfirm.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Value="PostWelcomeKit" Text="Post Welcome Kits">
+                                <asp:MenuItem Value="Update" Text="Upload Data" NavigateUrl="~/PostWKupload.aspx"></asp:MenuItem>
+                                <asp:MenuItem Value="Update" Text="Update Ship Confirmation" NavigateUrl="~/PostWKconfirm.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Value="UploadFiles" Text="Notice Letters">
+                                <asp:MenuItem Value="Update" Text="Upload PDF's" NavigateUrl="~/NL_UploadFiles.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Value="UploadFiles" Text="Care Radius">
+                                <asp:MenuItem Value="Update" Text="Upload XML" NavigateUrl="~/CR_UploadFiles.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Value="UploadFiles" Text="FSA">
+                                <asp:MenuItem Value="Update" Text="Upload FSA" NavigateUrl="~/FSA_UploadFiles.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Value="UploadFiles" Text="Managed Directories">
+                                <asp:MenuItem Value="Update" Text="Upload Managed Directories" NavigateUrl="~/Dir_UploadFiles.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                             <asp:MenuItem Value="Inventory" Text="Inventory_3PL">
+                                <asp:MenuItem Value="Update" Text="Upload Stock" NavigateUrl="~/Inventory_3PL.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+                             <asp:MenuItem Value="Inq" Text="Queries">
+                                <asp:MenuItem Value="Update" Text="Queries & Reports" NavigateUrl="~/Queries.aspx"></asp:MenuItem>
+                            </asp:MenuItem>
+
+
+                        </Items>
+
+                    </asp:Menu>
+
+                </div>
+            </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <%--<footer>
+                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+            </footer>--%>
+        </div>
+    </form>
+</body>
+</html>
