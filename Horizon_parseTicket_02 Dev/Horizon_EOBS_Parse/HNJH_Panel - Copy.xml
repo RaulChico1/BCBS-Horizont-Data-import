@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FileMap>
+  <Field Name="Rundate" Start="1" Length="10"/>
+  <Field Name="RunMonth" Start="11" Length="15"/>
+  <Field Name="ProviderGroupName" Start="26" Length="55"/>
+  <Field Name="ProvGroupID" Start="81" Length="12"/>
+  <Field Name="ProviderGroupAddress1" Start="93" Length="40"/>
+  <Field Name="ProviderGroupAddress2" Start="133" Length="40"/>
+  <Field Name="ProviderGroupCity" Start="173" Length="19"/>
+  <Field Name="ProviderGroupState" Start="192" Length="2"/>
+  <Field Name="ProviderGroupZip" Start="194" Length="11"/>
+  <Field Name="ProviderName" Start="205" Length="55"/>
+  <Field Name="ProviderID" Start="260" Length="12"/>
+  <Field Name="SubscriberID" Start="272" Length="9"/>
+  <Field Name="RecipientID" Start="281" Length="20"/>
+  <Field Name="MemberDOB" Start="301" Length="10"/>
+  <Field Name="MemberName" Start="311" Length="55"/>
+  <Field Name="MemberAddress1" Start="366" Length="40"/>
+  <Field Name="MemberAddress2" Start="406" Length="40"/>
+  <Field Name="MemberCity" Start="446" Length="19"/>
+  <Field Name="MemberState" Start="465" Length="2"/>
+  <Field Name="MemberZip" Start="467" Length="11"/>
+  <Field Name="MemberPhone" Start="478" Length="19"/>
+  <Field Name="MemberAge" Start="497" Length="5"/>
+  <Field Name="MemberGender" Start="502" Length="1"/>
+  <Field Name="TPLD" Start="503" Length="4"/>
+  <Field Name="DateEffectiveon" Start="507" Length="10"/>
+  <Field Name="PanelVisits" Start="517" Length="4"/>
+  <Field Name="NewMember" Start="521" Length="1"/>
+  <Field Name="PlanID" Start="522" Length="8"/>
+  <Field Name="CountofMembersonPanel" Start="530" Length="1"/>
+</FileMap>

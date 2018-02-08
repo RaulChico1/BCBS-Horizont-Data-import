@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1968F803-46FA-4134-A53F-181CE915A8C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Horizon_EOBS_Parse</RootNamespace>
+    <AssemblyName>Horizon_EOBS_Parse</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>SecurityRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>ExcelLib\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>dlls\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Starksoft.Cryptography.OpenPGP">
+      <HintPath>dlls\Starksoft.Cryptography.OpenPGP.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tamir.SharpSSH">
+      <HintPath>dlls\Tamir.SharpSSH.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>ExcelLib\WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="WinSCPnet">
+      <HintPath>Certificates\WinSCPnet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackCASS.cs" />
+    <Compile Include="CheckRecnum.cs" />
+    <Compile Include="createCAS_CSV.cs" />
+    <Compile Include="createCSV.cs" />
+    <Compile Include="createEmail.cs" />
+    <Compile Include="CreateXML.cs" />
+    <Compile Include="CryptoHelper.cs" />
+    <Compile Include="Cycle01.cs" />
+    <Compile Include="DBUtility.cs" />
+    <Compile Include="Encry_Worker.cs" />
+    <Compile Include="excelWritter\Alignment.cs" />
+    <Compile Include="excelWritter\BIFF.cs" />
+    <Compile Include="excelWritter\Cell.cs" />
+    <Compile Include="excelWritter\CellInfo.cs" />
+    <Compile Include="excelWritter\ColumnInfo.cs" />
+    <Compile Include="excelWritter\ExcelColor.cs" />
+    <Compile Include="excelWritter\ExcelDocumment.cs" />
+    <Compile Include="excelWritter\ExcelWriter.cs" />
+    <Compile Include="excelWritter\FontInfo.cs" />
+    <Compile Include="excelWritter\FormatInfo.cs" />
+    <Compile Include="Export_XLSX.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="ftp.cs" />
+    <Compile Include="ftp_downloads.cs" />
+    <Compile Include="GetSet_Recnum.cs" />
+    <Compile Include="HorizontalTextExtractionStrategy.cs" />
+    <Compile Include="NparseFiles_with_xml.cs" />
+    <Compile Include="NParse_GiftCards.cs" />
+    <Compile Include="GlobalVars.cs" />
+    <Compile Include="HNJH_Champs.cs" />
+    <Compile Include="HNJH_pdf_Counts.cs" />
+    <Compile Include="HNJH_To_XMPie.cs" />
+    <Compile Include="HNJH_WK_Medicaid.cs" />
+    <Compile Include="IMBProcess_Back.cs" />
+    <Compile Include="Import_Generic.cs" />
+    <Compile Include="IoHelper.cs" />
+    <Compile Include="LogWriter.cs" />
+    <Compile Include="MainProcess.cs" />
+    <Compile Include="NparseHNJH_Panel.cs" />
+    <Compile Include="NParse_1099.cs" />
+    <Compile Include="NParse_AbilTO.cs" />
+    <Compile Include="NParse_DirectMail.cs" />
+    <Compile Include="NParse_EP.cs" />
+    <Compile Include="Notice_Letter.cs" />
+    <Compile Include="NotticeLetter_5303.cs" />
+    <Compile Include="NParse_EPA_EPM.cs" />
+    <Compile Include="NParse_Fraud.cs" />
+    <Compile Include="Nparse_Historical.cs" />
+    <Compile Include="NParse_HOR_FEP_UPS.cs" />
+    <Compile Include="NParse_ICH_SG_SBC_Annual.cs" />
+    <Compile Include="NParse_Involuntary.cs" />
+    <Compile Include="Nparse_MAEOB_cards_pdfs.cs" />
+    <Compile Include="NParse_MAPAB.cs" />
+    <Compile Include="NParse_NAR.cs" />
+    <Compile Include="NParse_NPR.cs" />
+    <Compile Include="Nparse_OutReach.cs" />
+    <Compile Include="NParse_Pdfs_DueDilligence.cs" />
+    <Compile Include="Nparse_pdf_addrs_to_csv.cs" />
+    <Compile Include="NParse_pdf_CPlans.cs" />
+    <Compile Include="NParse_PND.cs" />
+    <Compile Include="NParse_QMLL.cs" />
+    <Compile Include="Nparse_SHBPMA.cs" />
+    <Compile Include="NParse_UCDS.cs" />
+    <Compile Include="Nparse_xls_SHBP.cs" />
+    <Compile Include="Nparse_XML.cs" />
+    <Compile Include="N_loadFromFTP.cs" />
+    <Compile Include="N_Parse_CommercialCorrespondence.cs" />
+    <Compile Include="N_Parse_MedicareMailData.cs" />
+    <Compile Include="Parse.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Parse.Designer.cs">
+      <DependentUpon>Parse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParseChecks.cs" />
+    <Compile Include="ParseNL.cs" />
+    <Compile Include="ParseWorker.cs" />
+    <Compile Include="NParse_ALGS.cs" />
+    <Compile Include="Parse_CBill.cs" />
+    <Compile Include="Parse_GBill.cs" />
+    <Compile Include="Parse_IDCards.cs" />
+    <Compile Include="NParse_IM.cs" />
+    <Compile Include="NParse_pdfs.cs" />
+    <Compile Include="Parse_Inv_pdf.cs" />
+    <Compile Include="NParse_to_Merge_XMPie.cs" />
+    <Compile Include="Process_MRDF_IMB.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ReturnFromBCC.cs" />
+    <Compile Include="SendMails.cs" />
+    <Compile Include="TextLineFinder.cs" />
+    <Compile Include="Ticket.cs" />
+    <Compile Include="Web References\xmpiedirector_JobTicket\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\xmpiedirector_Job\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\xmpiedirector_Production\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="xmlUploadData.cs" />
+    <Compile Include="xmlUpload_CR.cs" />
+    <Compile Include="xmlupload_HCVR.cs" />
+    <Compile Include="xml_pdfs.cs" />
+    <Compile Include="xmlupload_MAPAR.cs" />
+    <Compile Include="XMpie_Roster.cs" />
+    <Compile Include="ZipFiles.cs" />
+    <Compile Include="zip_Pdfs_Prod.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Parse.resx">
+      <DependentUpon>Parse.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExcelLib\DocumentFormat.OpenXml.dll" />
+    <Content Include="ExcelLib\WindowsBase.dll" />
+    <Content Include="HNJH_Panel.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="IDCards_Map.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="MRDF.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Parse.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\AssetSourceInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\AssetSourceStruct.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\Connection.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\Customization.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\EmailBodyInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\EmailHeaderInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\EmailProviderInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\ERecipientIDListMergeType.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\FieldMappings.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\jobticket_ssp.wsdl" />
+    <None Include="Web References\xmpiedirector_JobTicket\Parameter.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\Property.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\RecipientsInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\xmpiedirector_JobTicket\SubJobInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_Job\CampaignShortcutInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_Job\job_ssp.disco" />
+    <None Include="Web References\xmpiedirector_JobTicket\jobticket_ssp.disco" />
+    <None Include="Web References\xmpiedirector_Production\OnDemandOutputResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_Production\production_ssp.disco" />
+    <Content Include="WinSCP.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WinSCPnet.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Web References\xmpiedirector_Job\job_ssp.wsdl" />
+    <None Include="Web References\xmpiedirector_Job\OutputResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_Job\Property.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_Job\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\xmpiedirector_Job\XMPTblDataSet.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xmpiedirector_Production\production_ssp.wsdl" />
+    <None Include="Web References\xmpiedirector_Production\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Certificates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://xmpiedirector.cierant.com/xmpiewsapi/jobticket_ssp.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\xmpiedirector_JobTicket\</RelPath>
+      <UpdateFromURL>http://xmpiedirector.cierant.com/xmpiewsapi/jobticket_ssp.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Horizon_EOBS_Parse_xmpiedirector_JobTicket_JobTicket_SSP</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://xmpiedirector.cierant.com/xmpiewsapi/job_ssp.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\xmpiedirector_Job\</RelPath>
+      <UpdateFromURL>http://xmpiedirector.cierant.com/xmpiewsapi/job_ssp.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Horizon_EOBS_Parse_xmpiedirector_Job_Job_SSP</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://xmpiedirector.cierant.com/xmpiewsapi/production_ssp.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\xmpiedirector_Production\</RelPath>
+      <UpdateFromURL>http://xmpiedirector.cierant.com/xmpiewsapi/production_ssp.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Horizon_EOBS_Parse_xmpiedirector_Production_Production_SSP</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

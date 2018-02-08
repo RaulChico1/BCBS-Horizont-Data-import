@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FileMap>
+  <Field Name="File Date" Start="1" Length="10"/>
+  <Field Name="Seq #" Start="11" Length="6"/>
+  <Field Name="GroupID" Start="17" Length="14"/>
+  <Field Name="VarCode" Start="31" Length="1"/>
+  <Field Name="Group Name Short" Start="32" Length="30"/>
+  <Field Name="Insured FName" Start="62" Length="15"/>
+  <Field Name="Insured LName" Start="77" Length="25"/>
+  <Field Name="Insured Suffix" Start="102" Length="5"/>
+  <Field Name="Insured Inials" Start="107" Length="2"/>
+  <Field Name="Admin Name" Start="109" Length="25"/>
+  <Field Name="Address Pre" Start="134" Length="25"/>
+  <Field Name="Street Address" Start="159" Length="25"/>
+  <Field Name="City" Start="184" Length="15"/>
+  <Field Name="State" Start="199" Length="2"/>
+  <Field Name="Zip+4" Start="201" Length="9"/>
+  <Field Name="Group#-Pre" Start="210" Length="9"/>
+  <Field Name="Group#-Post" Start="219" Length="11"/>
+  <Field Name="Group Name Long" Start="230" Length="40"/>
+  <Field Name="Member Grp Prefix" Start="270" Length="12"/>
+  <Field Name="Plan Type" Start="303" Length="6"/>
+  <Field Name="Effective Date" Start="309" Length="10"/>
+  <Field Name="Plan Codes" Start="382" Length="6"/>
+  <Field Name="Member ID" Start="1064" Length="12"/>
+  <Field Name="CodeGrp2" Start="211" Length="5"/>
+  <Field Name="CodeGrp1" Start="220" Length="2"/>
+</FileMap>
