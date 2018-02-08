@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Service>
+  <Server>
+    <!--<IDirectory>C:\CierantProjects_dataLocal\Horizon_EOBs_input\</IDirectory>-->
+
+    <IDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\DailyFiles\</IDirectory>
+    <ODirectory>C:\CierantProjects_dataLocal\Horizon_Parse\DailyFiles\</ODirectory>
+
+    <networkDir>\\CIERANT-TAPER\Clients\Horizon BCBS\NoticeLetters\</networkDir>
+
+
+    <GBILLDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\Horizon_GBills\</GBILLDirectory>
+    <OGBILLDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\Horizon_GBills\</OGBILLDirectory>
+    <CBILLDirectory>\\Cierant-taper\clients\\Horizon BCBS\TEST FILES\Consumer Bills\TEST\</CBILLDirectory>
+    <OCBILLDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\Horizon_CBills\FromCASS\</OCBILLDirectory>
+    <NoticeDirectory_old>\\Cierant-taper\clients\Horizon BCBS\NoticeLetters\PAST_DUE_NOTICES_HOLDING\Process\Process_4_16_2015\</NoticeDirectory_old>
+    <NoticeDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\NoticeLetters\</NoticeDirectory>
+    <ONoticeDirectory>\\Cierant-taper\clients\Horizon BCBS\NoticeLetters\PAST_DUE_NOTICES\Process\</ONoticeDirectory>
+    <ChecksDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\Checks\</ChecksDirectory>
+    <OChecksDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\Checks\</OChecksDirectory>
+    <!--<NLDirectory>\\Cierant-taper\clients\Horizon BCBS\NoticeLetters\2015_APR\2015-04-01\filesautomaticallyconverted20150331.d\</NLDirectory>-->
+    <NLDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\NL\</NLDirectory>
+    <ONLDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\NL\</ONLDirectory>
+
+    <IDCardsDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\IDCards\</IDCardsDirectory>
+    <OIDCardsDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\IDCards\</OIDCardsDirectory>
+
+    <IDCardsMDirectory>\\CIERANT-TAPER\Clients\Horizon BCBS\ID Cards\SECURE DATA\</IDCardsMDirectory>
+    <OIDCardsMDirectory>\\CIERANT-TAPER\Clients\Horizon BCBS\ID Cards\SECURE DATA\</OIDCardsMDirectory>
+
+    <insertBBB>\\Cierant-taper\clients\Horizon BCBS\ID Cards\SECURE DATA\BBB_Current_Insert</insertBBB>
+
+    <DMPsDirectory>\\Cierant-taper\dmps\BCC_WATCHED_FOLDER\</DMPsDirectory>
+    <oDMPsDirectory>\\Cierant-taper\dmps\BCC_JM_PROCESSED_FOLDER_HORIZON-NOTICE-LETTERS\</oDMPsDirectory>
+
+    <pdfDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\NL_HLGS2_pdfs\</pdfDirectory>
+    <opdfDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\NL_HLGS2_pdfs\</opdfDirectory>
+    <ErrorLog>\\Log\\log_service_errors.txt</ErrorLog>
+    <ftpSubDirTo>/CierantDataIn_Enroll/</ftpSubDirTo>
+    <ftpServer>wcp1.thehealthplan.com</ftpServer>
+    <ftpUserID>cierant</ftpUserID>
+    <Test>Y</Test>
+    <note>Test = Y will not delete files in source and name TEST the pgp</note>
+    <SmtpClient>smtp.cierant.com</SmtpClient>
+    <processEmail>geisingerclients@cierant.com</processEmail>
+    <processEmail2>geisingercc@cierant.com</processEmail2>
+    <errorEmail>rchico@apps.cierant.com,sshrivastava@apps.cierant.com</errorEmail>
+    <sTimerHHMM>2356</sTimerHHMM>
+    <sStartTimerMMSS>0000</sStartTimerMMSS>
+    <dPassword>ThisIsNotARealPassword</dPassword>
+    <dPublicKey>Geisinger_Hitech_Public_Key.asc</dPublicKey>
+    <dPrivateKeyOnly>asc</dPrivateKeyOnly>
+    <filesToImport1>
+      <ElementDefinition>
+        <Name>filesautomaticallyconverted</Name>
+        <type>pgp</type>
+      </ElementDefinition>
+    </filesToImport1>
+    <filesToImport2>
+      <ElementDefinition>
+        <Name>HLGS</Name>
+        <type>zip</type>
+      </ElementDefinition>
+      <ElementDefinition>
+        <Name>COBA</Name>
+        <type>pdf</type>
+      </ElementDefinition>
+      <ElementDefinition>
+        <Name>CRNJLTR</Name>
+        <type>zip</type>
+      </ElementDefinition>
+      <ElementDefinition>
+        <Name>GRP2_</Name>
+        <type>zip</type>
+      </ElementDefinition>
+      <ElementDefinition>
+        <Name>CON2_</Name>
+        <type>zip</type>
+      </ElementDefinition>
+      <ElementDefinition>
+        <Name>Bed Bath and Beyond_</Name>
+        <type>zip</type>
+      </ElementDefinition>
+      <ElementDefinition>
+        <Name>Heavy and General Laborers_</Name>
+        <type>zip</type>
+      </ElementDefinition>
+    </filesToImport2>
+    <filesToImport3>
+      <ElementDefinition>
+        <Name>OMNIA_Update_HCV</Name>
+        <type>zip</type>
+      </ElementDefinition>
+      <ElementDefinition>
+        <Name>HCVRLTR</Name>
+        <type>zip</type>
+      </ElementDefinition>
+    </filesToImport3>
+  </Server>
+
+</Service>
