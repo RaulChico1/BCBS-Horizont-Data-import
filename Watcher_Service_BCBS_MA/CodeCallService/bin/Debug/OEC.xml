@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<File>
+  <FileMap>
+    <Field Name="SIN" Start="1" Length="13"/>
+    <Field Name="FNAME" Start="14" Length="14"/>
+    <Field Name="MNAME" Start="28" Length="1"/>
+    <Field Name="LNAME" Start="29" Length="15"/>
+    <Field Name="ADDR1" Start="44" Length="30"/>
+    <Field Name="ADDR2" Start="74" Length="30"/>
+    <Field Name="CITY" Start="104" Length="20"/>
+    <Field Name="STATE" Start="124" Length="2"/>
+    <Field Name="ZIP10" Start="126" Length="10"/>
+    <Field Name="GROUP" Start="136" Length="9"/>
+    <Field Name="BILLUNIT" Start="145" Length="4"/>
+    <Field Name="BENSTRING" Start="149" Length="5"/>
+    <Field Name="LIMIT" Start="154" Length="5"/>
+    <Field Name="UTILSTRING" Start="159" Length="5"/>
+    <Field Name="COV_CODE" Start="164" Length="6"/>
+    <Field Name="UACOVCODE1" Start="170" Length="4"/>
+    <Field Name="UACOVCODE2" Start="174" Length="4"/>
+    <Field Name="STATE_CODE" Start="178" Length="2"/>
+    <Field Name="DIR_TYPE" Start="180" Length="3"/>
+    <Field Name="EFF_DATE" Start="183" Length="8"/>
+    <Field Name="PREMAMT1" Start="191" Length="10"/>
+    <Field Name="PRODDESC1" Start="201" Length="20"/>
+    <Field Name="PREMAMT2" Start="221" Length="10"/>
+    <Field Name="PRODDESC2" Start="231" Length="20"/>
+    <Field Name="ANNIV_DATE" Start="251" Length="8"/>
+    <Field Name="MEM_STATUS" Start="259" Length="1"/>
+    <Field Name="INTSORTKEY" Start="260" Length="1"/>
+    <Field Name="DRUG_TIER" Start="261" Length="2"/>
+    <Field Name="DRUG_COV" Start="263" Length="1"/>
+    <Field Name="MEMKITNUM" Start="264" Length="3"/>
+    <Field Name="TYPE_EOC" Start="267" Length="1"/>
+    <Field Name="GENDERCODE" Start="268" Length="1"/>
+    <Field Name="ADDR_USAGE" Start="269" Length="1"/>
+    <Field Name="GROUP_TYPE" Start="270" Length="2"/>
+  </FileMap>
+  <FileMapKIT>
+    <Field Name="SIN" Start="1" Length="13"/>
+    <Field Name="FNAME" Start="14" Length="14"/>
+    <Field Name="MNAME" Start="28" Length="1"/>
+    <Field Name="LNAME" Start="29" Length="15"/>
+    <Field Name="ADDR1" Start="44" Length="30"/>
+    <Field Name="ADDR2" Start="74" Length="30"/>
+    <Field Name="CITY" Start="104" Length="20"/>
+    <Field Name="STATE" Start="124" Length="2"/>
+    <Field Name="ZIP10" Start="126" Length="10"/>
+    <Field Name="GROUP" Start="136" Length="9"/>
+    <Field Name="BILLUNIT" Start="145" Length="4"/>
+    <Field Name="BENSTRING" Start="149" Length="5"/>
+    <Field Name="LIMIT" Start="154" Length="5"/>
+    <Field Name="UTILSTRING" Start="159" Length="5"/>
+    <Field Name="COV_CODE" Start="164" Length="6"/>
+    <Field Name="UACOVCODE1" Start="170" Length="4"/>
+    <Field Name="UACOVCODE2" Start="174" Length="4"/>
+    <Field Name="STATE_CODE" Start="178" Length="2"/>
+    <Field Name="DIR_TYPE" Start="180" Length="3"/>
+    <Field Name="EFF_DATE" Start="183" Length="8"/>
+    <Field Name="PREMAMT1" Start="191" Length="10"/>
+    <Field Name="PRODDESC1" Start="201" Length="20"/>
+    <Field Name="PREMAMT2" Start="221" Length="10"/>
+    <Field Name="PRODDESC2" Start="231" Length="20"/>
+    <Field Name="ANNIV_DATE" Start="251" Length="8"/>
+    <Field Name="MEM_STATUS" Start="259" Length="1"/>
+    <Field Name="INTSORTKEY" Start="260" Length="1"/>
+    <Field Name="DRUG_TIER" Start="261" Length="2"/>
+    <Field Name="DRUG_COV" Start="263" Length="1"/>
+    <Field Name="MEMKITNUM" Start="264" Length="3"/>
+    <Field Name="TYPE_EOC" Start="267" Length="1"/>
+    <Field Name="GENDERCODE" Start="268" Length="1"/>
+    <Field Name="ADDR_USAGE" Start="269" Length="1"/>
+  </FileMapKIT>
+</File>

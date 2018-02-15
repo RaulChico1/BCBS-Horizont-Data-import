@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Service>
+  <Server>
+    <!--<IDirectory>C:\CierantProjects_dataLocal\Horizon_EOBs_input\</IDirectory>-->
+
+
+    <!--<IDir01>\\CIERANT-TAPER\Clients\Horizon BCBS\Pre-Sales_MEDICARE\MPSA\MPSA_Orders\WatchedFolder</IDir01>-->
+    <IDir01>C:\CierantProjects_dataLocal\Horizon_Parse\DailyFiles\watch_directory2\</IDir01>
+    <IDir02>C:\CierantProjects_dataLocal\Horizon_Parse\DailyFiles\watch_directory2\</IDir02>
+    <IDir03>C:\CierantProjects_dataLocal\Horizon_Parse\DailyFiles\watch_directory3\</IDir03>
+    <IDir04>C:\CierantProjects_dataLocal\Horizon_Parse\DailyFiles\watch_directory4\</IDir04>
+    <IDir05>C:\CierantProjects_dataLocal\Horizon_Parse\DailyFiles\watch_directory1\</IDir05>
+    <!--<IDir05>\\CIERANT-TAPER\Clients\Horizon BCBS\Pre-Sales_MEDICARE\MPSA\MPSA_Orders\WatchedFolderManual</IDir05>-->
+    
+    <!--<IDir01>\\CIERANT-TAPER\Clients\Horizon BCBS\Pre-Sales_MEDICARE\MPSA\MPSA_Orders\</IDir01>
+    <IDir02>\\CIERANT-TAPER\Clients\Horizon BCBS\14-0358_Post_Welcome_Kits\SECURE DATA\PROD_Medicare\</IDir02>
+    <IDir03>\\CIERANT-TAPER\Clients\Horizon BCBS\14-0358_Post_Welcome_Kits\SECURE DATA\PROD_Commercial\</IDir03>
+    <IDir04>\\CIERANT-TAPER\Clients\Horizon BCBS\FSA\PRODUCTION\</IDir04>-->
+    
+    
+    <IDir10>C:\CierantProjects_dataLocal\Horizon_Parse\DailyFiles\watch_directory\</IDir10>
+      
+    <ODir01>C:\CierantProjects_dataLocal\Horizon_Parse\DailyFiles\</ODir01>
+    <ODir02>C:\CierantProjects_dataLocal\Horizon_Parse\DailyFiles\</ODir02>
+
+
+
+    <dmpsWatched>\\Cierant-taper\dmps\BCC_WATCHED_FOLDER\</dmpsWatched>
+    <oDMPsDirectory>\\Cierant-taper\dmps\BCC_JM_PROCESSED_FOLDER_HORIZON-NOTICE-LETTERS\</oDMPsDirectory>
+    <oDMPsDirectoryM>\\Cierant-taper\dmps\BCC_JM_PROCESSED_FOLDER_HORIZON-MEDICAID-HNJH-PR\</oDMPsDirectoryM>
+    <oDMPsDirectoryMAS>\\Cierant-taper\dmps\BCC_JM_PROCESSED_FOLDER_MAS023_\</oDMPsDirectoryMAS>
+    <oDMPSimb>\\Cierant-taper\DMPS\BCC_JM_PROCESSED_FOLDER_HORIZON-ID-AND-NOTICE-W-IMB\</oDMPSimb>
+    <dataEOC>C:\CierantProjects_dataLocal\Horizon_Parse\DailyFiles\BCBS_MA\</dataEOC>
+    <errEmail>rchico@apps.cierant.com</errEmail>
+    <errMsg>rchico@apps.cierant.com</errMsg>
+    <!--<IDirectory>C:\CierantProjects_dataLocal\Horizon_Parse\DailyFiles\</IDirectory>
+
+    <networkDir>\\CIERANT-TAPER\Clients\Horizon BCBS\NoticeLetters\</networkDir>-->
+    
+    
+  
+</Server>
+
+</Service>

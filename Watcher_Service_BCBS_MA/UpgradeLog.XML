@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CodeCall">
+</Property><Property Name="Solution File" Value="C:\CierantProjects\Watcher_Service\CodeCall.sln">
+</Property><Property Name="Date" Value="Thursday, January 26, 2017">
+</Property><Property Name="Time" Value="15:48 PM">
+</Property></Properties><Event ErrorLevel="0" Project="CodeCallService" Source="CodeCallService\CodeCallService.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CodeCallService" Source="CodeCallService\CodeCallService.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CodeCall.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CodeCall.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CodeCallService" Source="CodeCallService\CodeCallService.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
