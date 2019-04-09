@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WindowsForm.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WindowsForm_xmpiedirector_Job_Job_SSP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://xmpiedirector.cierant.com/xmpiewsapi/job_ssp.asmx</Value>
+    </Setting>
+    <Setting Name="WindowsForm_xmpiedirector_JobTicket_JobTicket_SSP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://xmpiedirector.cierant.com/xmpiewsapi/jobticket_ssp.asmx</Value>
+    </Setting>
+    <Setting Name="WindowsForm_xmpiedirector_Production_Production_SSP" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://xmpiedirector.cierant.com/xmpiewsapi/production_ssp.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://xmpiedirector.cierant.com/xmpiewsapi/production_ssp.asmx?wsdl" docRef="http://xmpiedirector.cierant.com/xmpiewsapi/production_ssp.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://xmpiedirector.cierant.com/xmpiewsapi/production_ssp.asmx" xmlns:q1="XMPieWSAPI" binding="q1:Production_SSPSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://xmpiedirector.cierant.com/xmpiewsapi/production_ssp.asmx" xmlns:q2="XMPieWSAPI" binding="q2:Production_SSPSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

@@ -1,0 +1,151 @@
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\Horizon_EOBS_Parse\bin\Debug\WindowsForm.exe.config
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\IDCards_Map.xml
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Parse.xml
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WinSCP.exe
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WinSCPnet.dll
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.exe.config
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.exe.manifest
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.application
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.exe
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.pdb
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Horizon_EOBS_Parse.exe
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Tamir.SharpSSH.dll
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\itextsharp.dll
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Starksoft.Cryptography.OpenPGP.dll
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\DiffieHellman.dll
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Org.Mentalis.Security.dll
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Horizon_EOBS_Parse.pdb
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\itextsharp.xml
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Starksoft.Cryptography.OpenPGP.xml
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.csprojResolveAssemblyReference.cache
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Form1.resources
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Form2.resources
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Inq1.resources
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.PleaseWait.resources
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Properties.Resources.resources
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.csproj.GenerateResource.Cache
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.exe.manifest
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.application
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.exe
+C:\Projects\New folder (6)\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.pdb
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\IDCards_Map.xml
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Parse.xml
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WinSCP.exe
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WinSCPnet.dll
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.exe.config
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.exe.manifest
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.application
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.exe
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.pdb
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Horizon_EOBS_Parse.exe
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Tamir.SharpSSH.dll
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\itextsharp.dll
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Starksoft.Cryptography.OpenPGP.dll
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\DiffieHellman.dll
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Org.Mentalis.Security.dll
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Horizon_EOBS_Parse.pdb
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\itextsharp.xml
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Starksoft.Cryptography.OpenPGP.xml
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.csprojResolveAssemblyReference.cache
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Form1.resources
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Form2.resources
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Inq1.resources
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.PleaseWait.resources
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Properties.Resources.resources
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.csproj.GenerateResource.Cache
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.exe.manifest
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.application
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.exe
+C:\Projects\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.pdb
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\IDCards_Map.xml
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Parse.xml
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WinSCP.exe
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WinSCPnet.dll
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.exe.config
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.exe.manifest
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.application
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.exe
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.pdb
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Horizon_EOBS_Parse.exe
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Tamir.SharpSSH.dll
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\itextsharp.dll
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Starksoft.Cryptography.OpenPGP.dll
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\DocumentFormat.OpenXml.dll
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\DiffieHellman.dll
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Org.Mentalis.Security.dll
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Horizon_EOBS_Parse.pdb
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\itextsharp.xml
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Starksoft.Cryptography.OpenPGP.xml
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.csprojResolveAssemblyReference.cache
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Form1.resources
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Form2.resources
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Inq1.resources
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.PleaseWait.resources
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Properties.Resources.resources
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.csproj.GenerateResource.Cache
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.exe.manifest
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.application
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.exe
+C:\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.pdb
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.exe
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\WindowsForm.exe
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\IDCards_Map.xml
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\Parse.xml
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\WinSCP.exe
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\WinSCPnet.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\WindowsForm.exe.config
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\WindowsForm.exe.manifest
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\WindowsForm.application
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\Horizon_EOBS_Parse.exe
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\Tamir.SharpSSH.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\itextsharp.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\Starksoft.Cryptography.OpenPGP.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\DocumentFormat.OpenXml.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\DiffieHellman.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\Org.Mentalis.Security.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\Horizon_EOBS_Parse.pdb
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\itextsharp.xml
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\Starksoft.Cryptography.OpenPGP.xml
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\obj\x86\Debug\WindowsForm.csprojResolveAssemblyReference.cache
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\obj\x86\Debug\WindowsForm.Form1.resources
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\obj\x86\Debug\WindowsForm.Form2.resources
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\obj\x86\Debug\WindowsForm.Inq1.resources
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\obj\x86\Debug\WindowsForm.PleaseWait.resources
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\obj\x86\Debug\WindowsForm.Properties.Resources.resources
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\obj\x86\Debug\WindowsForm.csproj.GenerateResource.Cache
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\obj\x86\Debug\WindowsForm.exe.manifest
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\obj\x86\Debug\WindowsForm.application
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\obj\x86\Debug\WindowsForm.exe
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\obj\x86\Debug\WindowsForm.pdb
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp - Copy\WindowsForm\bin\Debug\WindowsForm.pdb
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\IDCards_Map.xml
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Parse.xml
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WinSCP.exe
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WinSCPnet.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.exe.config
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.exe.manifest
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.application
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Horizon_EOBS_Parse.exe
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Tamir.SharpSSH.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\itextsharp.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Starksoft.Cryptography.OpenPGP.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\DocumentFormat.OpenXml.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\DiffieHellman.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Org.Mentalis.Security.dll
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Horizon_EOBS_Parse.pdb
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\itextsharp.xml
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\Starksoft.Cryptography.OpenPGP.xml
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.csprojResolveAssemblyReference.cache
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Form1.resources
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Form2.resources
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Inq1.resources
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.PleaseWait.resources
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.Properties.Resources.resources
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.csproj.GenerateResource.Cache
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.exe.manifest
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.application
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.exe
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\obj\x86\Debug\WindowsForm.pdb
+C:\CierantProjects\HorizonIdCardsProjectsByTina_NewVersion\HorizonidCardsProjectsByTina\Horizon_Eob_Parse-BackUp\WindowsForm\bin\Debug\WindowsForm.pdb

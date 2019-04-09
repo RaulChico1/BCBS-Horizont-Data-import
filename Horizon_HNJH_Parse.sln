@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horizon_EOBS_Parse", "Horizon_EOBS_Parse\Horizon_EOBS_Parse.csproj", "{1968F803-46FA-4134-A53F-181CE915A8C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForm", "WindowsForm\WindowsForm.csproj", "{E777BB99-6FAD-490D-96DD-D380A18CFC79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1968F803-46FA-4134-A53F-181CE915A8C8}.Debug|x86.ActiveCfg = Debug|x86
+		{1968F803-46FA-4134-A53F-181CE915A8C8}.Debug|x86.Build.0 = Debug|x86
+		{1968F803-46FA-4134-A53F-181CE915A8C8}.Release|x86.ActiveCfg = Release|x86
+		{E777BB99-6FAD-490D-96DD-D380A18CFC79}.Debug|x86.ActiveCfg = Debug|x86
+		{E777BB99-6FAD-490D-96DD-D380A18CFC79}.Debug|x86.Build.0 = Debug|x86
+		{E777BB99-6FAD-490D-96DD-D380A18CFC79}.Release|x86.ActiveCfg = Release|x86
+		{E777BB99-6FAD-490D-96DD-D380A18CFC79}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
