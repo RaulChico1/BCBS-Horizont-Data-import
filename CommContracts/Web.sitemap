@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title=" " description="">
+    <siteMapNode title="Process Commercial Contracts" url="~/Default2.aspx" description="Process Commercial Contracts">
+      <siteMapNode url="~/DailyProcess.aspx" title="Daily Process" description="Process Daiuly" />
+      <siteMapNode url="~/WeeklyProcess.aspx" title="Weekly Process" description="Process saturdays" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,227 @@
+﻿/* 
+   The below CSS file was built using samples + techniques described by Rachel Andrew in her book:
+   The CSS Anthology: 101 Essential Tips, Tricks & Hacks
+*/
+
+/* Overall Page */
+
+body {
+	margin: 0;
+	padding-bottom: 2em;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-top: 2px solid #B51032;
+}
+
+input 
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+
+select
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+
+
+/* Header Section */
+
+#header {
+	border-top: 3px solid #B51032;
+	border-bottom: 1px dotted #B51032;
+	height: 4.7em;
+}
+#header .title {
+	font: 190% Arial, Helvetica, Georgia, "Times New Roman", Times, serif;
+	color: black;
+	background-color: transparent;
+	float: left;
+	margin-right: 2em;
+	margin-top: 0.3em;
+	margin-left: .8em;
+}
+#header .breadcrumb {
+	font: 90% Arial, Helvetica, Georgia, "Times New Roman", Times, serif;
+	color: black;
+	background-color: transparent;
+	float: left;
+	margin-right: 2em;
+	margin-top: 0.8em;
+	font-weight:bold;
+}
+
+#header a:link, a:visited  {
+	color: #0768a9;
+}
+
+/* Navigation */
+
+#navigation {
+	width: 200px;
+	top: 6em;
+	left: 1em;
+	width: 13em;	
+	position:absolute;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:90%;
+}
+#navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	border-bottom: 1px solid #42aff7;
+}
+#navigation li a  {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #043a5e;
+	border-right: 1px solid #043a5e;
+	background-color: #0768a9;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#navigation li a:hover {
+	background-color: #711515;
+	color: #FFFFFF;
+}
+#navigation ul ul {
+	margin-left: 12px;
+}
+#navigation ul ul li {
+	border-bottom: 1px solid #711515;
+	margin:0;
+	background-color: #42aff7;
+	color: #FFFFFF;
+}
+#navigation ul ul a:link, #navigation ul ul a:visited {
+	background-color: #42aff7;
+	color: #FFFFFF;
+}
+#navigation ul ul a:hover {
+	background-color: #711515;
+	color: #FFFFFF;
+}
+
+/* Main Content */
+
+#content 
+{
+	margin-top:1em;
+	margin-left: 16em;
+	margin-right: 2em;
+}
+h1 {
+	font: 150% Arial, Helvetica, Georgia, "Times New Roman", Times, serif;
+}
+#content p {
+	font-size: 80%;
+	line-height: 1.6em; 
+}
+
+#content ul {
+	font-size: 80%;
+	line-height: 1.6em; 
+}
+.grid3col .column { margin-left: 30px; margin-top: 10px }
+.column { float: left; }
+.column.first, .column.last { margin-left: 0 !important; }
+.column.last { float: right !important; }
+.column1 { float: left; width:15% }
+
+
+/* Data Web Control Styles */
+
+.DataWebControlStyle
+{
+    font-size: 90%;
+}
+
+.HeaderStyle
+{
+    background-color: #C9CACA;
+    color: White;
+    font-weight: bold;
+}
+
+.HeaderStyle a, .HeaderStyle a:visited
+{
+    color: White;
+}
+
+.FooterStyle
+{
+    background-color: #a33;
+    color: White;
+    text-align: right;
+}
+
+.AlternatingRowStyle
+{
+    background-color: #fcc;
+}
+
+.RowStyle
+{
+}
+
+.SelectedRowStyle
+{
+    background-color: Yellow;
+}
+
+.PagerRowStyle
+{
+    background-color: #ddd;
+    text-align: right;
+}
+
+.SortHeaderRowStyle
+{
+    background-color: #c00;
+    text-align: left;
+    font-weight: bold;
+    color: White;
+}
+
+
+/* Misc Styles */
+
+.ExpensivePriceEmphasis
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.LowUnitsInStockEmphasis
+{
+    color: Red;
+}
+
+.AffordablePriceEmphasis
+{
+    background-color: Yellow;
+}
+
+.ProductPropertyLabel
+{
+    font-weight: bold;
+    text-align: right;
+}
+
+.ProductPropertyValue
+{
+    padding-right: 35px;
+}
+
+.Warning
+{
+    color: Red;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+}
